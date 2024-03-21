@@ -1,0 +1,15 @@
+.title {
+  text-align: center;
+  text-shadow: -1px -2px 5px rgba(33, 243, 5, 1);
+  font-size: 3rem;
+  font-family: 'Orbitron', sans-serif;
+  color: black;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}

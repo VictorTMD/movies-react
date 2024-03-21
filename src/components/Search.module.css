@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  position: relative;
+}
+.input {
+  border: 2px solid rgba(33, 243, 5, 1);
+  border-radius: 10px;
+  padding: 5px 30px 5px 10px;
+  height: 30px;
+  font-size: 18px;
+  background: black;
+  color: white;
+}
+/* con posicion absoluta siendo su padre relative 
+el button se pone por delante 
+*/
+.button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  height: 100%;
+  border: none;
+  color: rgba(33, 243, 5, 1);
+  background: none;
+}
+
+.input:focus {
+  outline: none;
+}
